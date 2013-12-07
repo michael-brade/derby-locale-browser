@@ -1,0 +1,30 @@
+{
+  "author": "psirenny <djtorres0@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psirenny/derby-locale-browser/issues"
+  },
+  "description": "Add browser support to derby-locale.",
+  "keywords": [
+    "accept",
+    "browser",
+    "derby",
+    "header",
+    "internationalization",
+    "language",
+    "locale",
+    "localization",
+    "request"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "derby-locale-browser",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/psirenny/derby-locale-browser.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
+}
