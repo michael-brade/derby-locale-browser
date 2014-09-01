@@ -1,7 +1,7 @@
 Derby Locale Browser
 ====================
 
-A [derby-locale](https://github.com/psirenny/derby-locale) strategy selects locales from the browser's `Accept-Language` request header.
+A [derby-locale](https://github.com/psirenny/derby-locale) strategy that selects locales from the browser's `Accept-Language` request header.
 
 [![Build Status](https://travis-ci.org/psirenny/derby-locale-browser.png?branch=master)](https://travis-ci.org/psirenny/derby-locale-browser)
 
