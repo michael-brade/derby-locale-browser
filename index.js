@@ -2,7 +2,6 @@ module.exports = function (options) {
   if (!options) options = {};
   if (!options.path) options.path = '$locale';
   if (!options.name) options.name = 'browser';
-
   return function (req, res, next) {
     var model = req.getModel();
     var path = options.path + '.strategies.' + options.name;

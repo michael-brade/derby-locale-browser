@@ -13,15 +13,15 @@ Installation
 Usage
 -----
 
-In your server file, add the middleware:
+In your server file, add the middleware *before* derby-locale:
 
-    var localeBrowser = require('derby-locale').server;
+    var localeBrowser = require('derby-locale-browser');
 
     expressApp
       // ...
       // ...
-      .use(locale())
       .use(localeBrowser())
+      .use(locale())
 
 Options
 -------
