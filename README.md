@@ -30,4 +30,4 @@ Options
 
 **order** – The order of the strategy. Blank by default.
 
-**path** – The path to the locale object. Defaults to ``$locale`.
+**path** – The path to the locale object. Defaults to `$locale`.
