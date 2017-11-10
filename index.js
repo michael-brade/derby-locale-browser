@@ -6,7 +6,7 @@ module.exports = function (options) {
   if (!options.name) options.name = 'browser';
 
   return function (req, res, next) {
-    var model = req.getModel();
+    var model = req.model;
     var path = options.path + '.strategies.' + options.name;
     var strategy = {};
     var locales = req.get('accept-language');
